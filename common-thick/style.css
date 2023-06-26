@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'gs-icons';
-  src:  url('fonts/gs-icons.eot?75gkhs');
-  src:  url('fonts/gs-icons.eot?75gkhs#iefix') format('embedded-opentype'),
-    url('fonts/gs-icons.ttf?75gkhs') format('truetype'),
-    url('fonts/gs-icons.woff?75gkhs') format('woff'),
-    url('fonts/gs-icons.svg?75gkhs#gs-icons') format('svg');
+  src:  url('fonts/gs-icons.eot?fkw23d');
+  src:  url('fonts/gs-icons.eot?fkw23d#iefix') format('embedded-opentype'),
+    url('fonts/gs-icons.ttf?fkw23d') format('truetype'),
+    url('fonts/gs-icons.woff?fkw23d') format('woff'),
+    url('fonts/gs-icons.svg?fkw23d#gs-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.gs-refresh-alt-thick:before {
+  content: "\e938";
+}
 .gs-bookmark-thick:before {
   content: "\e900";
 }
@@ -192,12 +195,6 @@
 }
 .gs-plus-thick:before {
   content: "\e937";
-}
-.gs-refresh_1:before {
-  content: "\e938";
-}
-.gs-refresh-alt-thick:before {
-  content: "\e939";
 }
 .gs-refresh-thick:before {
   content: "\e93a";

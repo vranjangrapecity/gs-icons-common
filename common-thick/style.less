@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '@{icomoon-font-family}';
-  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?75gkhs');
-  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?75gkhs#iefix') format('embedded-opentype'),
-    url('@{icomoon-font-path}/@{icomoon-font-family}.ttf?75gkhs') format('truetype'),
-    url('@{icomoon-font-path}/@{icomoon-font-family}.woff?75gkhs') format('woff'),
-    url('@{icomoon-font-path}/@{icomoon-font-family}.svg?75gkhs#@{icomoon-font-family}') format('svg');
+  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?fkw23d');
+  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?fkw23d#iefix') format('embedded-opentype'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.ttf?fkw23d') format('truetype'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.woff?fkw23d') format('woff'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.svg?fkw23d#@{icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.gs-refresh-alt-thick {
+  &:before {
+    content: @gs-refresh-alt-thick; 
+  }
+}
 .gs-bookmark-thick {
   &:before {
     content: @gs-bookmark-thick; 
@@ -305,16 +310,6 @@
 .gs-plus-thick {
   &:before {
     content: @gs-plus-thick; 
-  }
-}
-.gs-refresh_1 {
-  &:before {
-    content: @gs-refresh_1; 
-  }
-}
-.gs-refresh-alt-thick {
-  &:before {
-    content: @gs-refresh-alt-thick; 
   }
 }
 .gs-refresh-thick {
